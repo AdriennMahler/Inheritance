@@ -25,7 +25,7 @@ dass es ein Kreis ist (den Radius-Wert auch bitte zeigen).
  */
 
 
-class Geometrie{
+class Formen{
         int x;
         int y;
         public int getX() {return x;}
@@ -35,7 +35,7 @@ class Geometrie{
        }
    }
 
-    class Rechteck extends Geometrie{
+    class Rechteck extends Formen{
        Rechteck(int x, int y, int breite, int hoehe){
            this.x=x;
            this.y=y;
@@ -48,7 +48,7 @@ class Geometrie{
         public void setHoehe(int hoehe){this.hoehe=hoehe;}
     }
 
-    class Kreis extends Geometrie{
+    class Kreis extends Formen{
 
        Kreis(int x, int y, int radius){
            this.x=x;
